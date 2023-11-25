@@ -103,6 +103,7 @@ public class Game extends Canvas implements Runnable {
 
     }
 
+
     public void render() {
         BufferStrategy bs = getBufferStrategy();
         if(bs == null) {
